@@ -1,0 +1,476 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" media="screen">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Digital communication/title>
+
+
+    <style>
+
+        
+        * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+          }
+          
+          html, body {
+            height:100%;
+          }
+          
+          
+          body {
+            margin:0;
+            background:#14b5d1;
+            font-size:1.3em;
+            color:#333; 
+            font-family:'Open Sans', sans-serif;
+          }
+          
+          section {
+            float:left;
+            width:100%;
+            background:#fff;
+            position:relative;
+            box-shadow:0 0 5px 0px #333;
+          }
+          
+          
+          /* the important styles */
+          
+          .arrow-wrap {
+            position:absolute;
+            z-index:1;
+            left:50%;
+            top:-5em;
+            margin-left:-5em;
+            background:#111;
+            width:10em;
+            height:10em;
+            padding:4em 2em;
+            border-radius:50%;
+            font-size:0.5em;
+            display:block;
+            box-shadow:0px 0px 5px 0px #333;
+          }
+          
+          .arrow {
+            float:left;
+            position:relative;
+            width: 0px;
+          height: 0px;
+          border-style: solid;
+          border-width: 3em 3em 0 3em;
+          border-color: #ffffff transparent transparent transparent;
+            -webkit-transform:rotate(360deg)
+          }
+          
+          .arrow:after {
+            content:'';
+            position:absolute;
+            top:-3.2em;
+            left:-3em;
+            width: 0px;
+          height: 0px;
+          border-style: solid;
+          border-width: 3em 3em 0 3em;
+          border-color: #111 transparent transparent transparent;
+            -webkit-transform:rotate(360deg)
+          }
+          
+          
+          .hint {
+            position:absolute;
+            top:0.6em;
+            width:100%;
+            left:0;
+            font-size:2em;
+            font-style:italic;
+            text-align:center;
+            color:#fff;
+            opacity:0;
+          }
+          
+          
+          .arrow-wrap:hover .hint {
+            opacity:1;
+          }
+          
+          
+            @-webkit-keyframes arrows {
+              0% { top:0; }
+              10% { top:12%; }
+              20% { top:0; }
+              30% { top:12%; }
+              40% { top:-12%; }
+              50% { top:12%; }
+              60% { top:0; }
+              70% { top:12%; }
+              80% { top:-12%; }
+              90% { top:12%; }
+              100% { top:0; }
+            }
+            
+            .arrow-wrap .arrow {
+              -webkit-animation: arrows 2.8s 0.4s;
+              -webkit-animation-delay: 3s;
+            }
+          
+          
+          
+          
+          
+          /*  this is the unimportant CSS used just to layout the content  */
+          
+          
+          
+          header {
+            float:left;
+            width:100%;
+            padding:2em 4em;
+            color:#fff;
+            height:calc(100% - 3em);
+          }
+          
+          header h1 {
+            margin:0;
+          }
+          header h3 {
+            margin:0;
+            color: #56dcee ;
+          }
+          
+          header a {
+            color:#56dcee;
+            opacity:0.5;
+            text-decoration:none;
+          }
+          
+          header a:hover {
+            color:#333;
+            opacity:1;
+          }
+          
+          
+          .content {
+            float:left;
+            width:70%;
+            margin:0 15%;
+            padding:2em 0;
+          }
+          
+          h1 {
+            font-family:'Maven Pro', sans-serif;
+            font-weight:300;
+            font-size:2.4em;
+          }
+          
+          h2, h3 {
+            font-family:'Maven Pro', sans-serif;
+            font-weight:300;
+            font-size:1.5em;
+            margin-top:2em;
+          }
+          
+          pre {
+            background:#ededed;
+            padding:1em;
+          }
+          
+          p {
+            color:#555;
+            font-size:0.9em;
+          }
+          
+          p a {
+            color:#14b5d1;
+            text-decoration:none;
+          }
+          
+
+    </style>
+  </head>
+  <body>
+   
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
+
+    <header>
+      <h1>NUST Student new Channel</h1>
+      <h3>
+        Certainly, here's a hypothetical news quote related to NUST News Channel:
+
+        "NUST News Channel, your window to the latest happenings within our university and beyond. Stay informed, stay connected, and stay ahead with NUST News Channel, where knowledge meets innovation, and information empowers our community."
+      </h3>
+      <a href="https://www.nust.na/">Visit our main Website</a>
+    </header>
+    
+    
+    <section class="main">
+    <a class="arrow-wrap" href="#content">
+    <span class="arrow"></span>
+    <!--<span class="hint">scroll</span>-->
+    </a>
+
+    <!-- <img style = "border-radius:40%; width:5%; " src="WhatsApp Image 2023-09-14 at 11.28.16 AM.jpeg" alt="[rofile]"> -->
+    <br> <br> <br>
+
+    <div style="margin-left:10%; margin-bottom:10%;background :url('WhatsApp Image 2023-09-14 at 11.28.16 AM.jpeg'); background-size:cover; width:15%;border:bold 2px blue; height:30%; border-radius:50%;padding:20px;"> </div>
+    
+    <div   style="margin-left:10%; top:10%;">
+    <h1 style=" font-size:23px;" >Prisca Ilunga Kibwika</h1>
+    <p  style="font-size:23px;">Eduction <br> </p>
+    <p>Highschool : IDAP/ISP Lubumbashi <br> </p>
+    <p>Undergraduate : NUST<br> </p>
+    <p>Current Occupation : Senior Communicator at Google<br> </p>
+
+    <p  style="font-size:23px;">Certification<br> </p>
+    <p>1st : Communication<br> </p>
+    <p>2nd : Digital Marketing<br> </p>
+      
+    </div>
+      <div class="content" id="content">
+        <h1>> Article : Analyzing the Factors Behind Poor Academic Performance Among Students at UNAM and NUST in Namibia: A Proposal for Solutions</h1>
+        <p>
+          <i>  10th September 2023 <br> By Prisca Kibwika </i>
+        </p>
+        <p>
+            The academic performance of students in Namibia, particularly those enrolled at the University of Namibia (UNAM) 
+            and the Namibia University of Science and Technology (NUST), has been a matter of concern. This article investigates
+             the underlying reasons behind poor academic performance among Namibian students in these institutions and proposes 
+             seven potential solutions.
+      
+    
+
+
+             
+      
+        
+
+
+        
+        
+        <p>
+        Namibia, a nation that has emerged as a symbol of resilience and progress on the African continent, stands at the crossroads of development and transformation. One of the most critical facets of this transformation is the evolution of its higher education landscape, symbolized by institutions such as the University of Namibia (UNAM) and the Namibia University of Science and Technology (NUST). These institutions play a pivotal role in shaping the nation's future, molding its young minds, and fostering intellectual growth.
+        
+        Yet, beneath the veneer of hope and progress, there exists a challenge that has persisted for years, casting a shadow over the educational aspirations of countless Namibian students – the issue of poor academic performance. This phenomenon, observed prominently among students at UNAM and NUST, has far-reaching implications for the educational ecosystem and, consequently, for the nation's socio-economic development.
+        
+        The aim of this article is to embark on a comprehensive exploration of the multifaceted issue of poor academic performance among students in Namibia's premier higher education institutions. It is an issue that extends far beyond mere statistics; it is a narrative that delves into the heart of Namibia's educational aspirations and the dreams of its youth.
+        
+       </p>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/zZewPc66MZE?si=BA0UIsHAY0SxNOR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <h2>The Context of Namibia's Educational Landscape</h2>
+       
+        <p>
+        
+        Before delving into the intricacies of academic performance, it is imperative to appreciate the broader context of Namibia's educational landscape. A nation born from the crucible of struggle and liberation, Namibia has demonstrated an unwavering commitment to education as a tool for empowerment and progress. Since gaining independence in 1990, Namibia has taken commendable strides in expanding access to education at all levels, striving to ensure that education becomes a fundamental right for all its citizens.
+        
+        The establishment of UNAM in 1992 marked a significant milestone in the nation's pursuit of higher education excellence. UNAM, with its diverse range of academic programs, has since become a cornerstone of Namibia's higher education system. In parallel, NUST, which transitioned from a polytechnic institution to a full-fledged university in 2015, has emphasized science, technology, and innovation as drivers of socio-economic development.
+        
+
+        </p>
+
+        <h2>The Alarming Persistence of Poor Academic Performance</h2>
+        <p>
+         <i>Updated on  11th September 2023 at 8:12 <br> By Prisca Kibwika </i>
+      </p>
+
+        <p>
+        
+        Despite the promise and potential inherent in Namibia's higher education institutions, a disconcerting trend has been observed. Students, some of whom are the first in their families to pursue higher education, often grapple with academic challenges that hinder their progress. Academic performance indicators such as high dropout rates, low graduation rates, and an increased prevalence of academic probation have raised concerns among educators, policymakers, and the public at large.
+        
+        The causes of this persistent issue are multifaceted and multifarious. From socio-economic disparities that hinder access to quality education to language barriers that impede effective communication in the classroom, a myriad of factors intersect to create an environment in which students struggle to thrive academically. Furthermore, the lack of access to educational resources, health-related challenges, pedagogical difficulties, suboptimal campus environments, and students' struggles with time management and study skills have all contributed to the prevailing issue.
+        
+        </p>
+
+        <h2>The Consequences of Poor Academic Performance</h2>
+        <p>
+         <i>Updated on  12th September 2023  at 14:45 <br> By Prisca Kibwika</i> 
+       </p>
+        <p>
+        
+        The ramifications of poor academic performance extend well beyond the classroom. For the affected students, it often translates into dashed dreams, unrealized potential, and an uncertain future. The societal repercussions are equally grave. As students falter in their educational pursuits, the nation as a whole bears the brunt of missed opportunities. A workforce that is not adequately equipped with knowledge and skills hampers the nation's competitiveness and stymies economic growth.
+        
+        In light of this, it is crucial to confront this issue head-on and seek sustainable solutions that not only improve the educational outcomes of individual students but also contribute to the broader social and economic well-being of Namibia. This article endeavors to do just that – to investigate the root causes of poor academic performance among students at UNAM and NUST, and to propose a comprehensive set of solutions that can help alleviate this persistent challenge.
+        
+        As we embark on this journey of understanding, analysis, and proactive problem-solving, we emphasize the importance of addressing this concern. The future of Namibia is intrinsically linked to the success of its education system and the empowerment of its youth. Through collaboration, innovation, and a steadfast commitment to educational excellence, we can collectively work towards a brighter future for Namibian students and the nation as a whole.
+        
+        ---
+      </p>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/iSqzzosnZVc?si=nNTgaAEhPpaoIozJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     
+    
+    
+    
+    <!-- //second content -->
+    
+          
+<h1>> Article: Global Climate Change Accelerates, Prompting Urgent Calls for Action</h1>
+
+<p>
+  <i>13th September 2023 at 9:45 <br> By Prisca Kibwika </i>
+</p>
+
+
+<p>
+
+  Extreme Weather Events:
+From devastating hurricanes and typhoons to catastrophic floods and prolonged droughts,
+ extreme weather events are becoming more frequent and severe. The intensification of these 
+ natural disasters has led to widespread destruction, displacement of communities, and loss 
+ of life. Experts warn that unless greenhouse gas emissions are significantly reduced, we can 
+ expect more frequent and intense weather-related disasters in the years to come.
+</p>
+
+
+<img style ="width:60%;" src="hurricane-irma.jpg" alt="">
+
+Do Changes in Our Climate Mean More Hurricanes?
+ARTICLE
+Do Changes in Our Climate Mean More Hurricanes?
+Earth Science, Meteorology
+In recent years, the occurrence and severity of hurricanes both appear to 
+have drastically increased. Scientists have since begun to make connections between climate change and the proliferation of hurricanes since this is also one of the reason that affects student perfromance,
+due the extreme hit or cold.
+    
+
+
+
+
+
+<!-- //third  -->
+
+<h1>>Article: Parents in Windhoek Still Seeking School Placement - NBC Report</h1>
+<p>
+ <i>14th September 2023 at 15:00 <br> By Prisca Kibwika </i> 
+</p>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ujVdiWGEdJo?si=lNT3roVZ_fdfHfuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+In the heart of Namibia's capital city, Windhoek, a growing number of parents are 
+facing an unexpected challenge as the new school year begins. Despite the government's e
+fforts to improve education access and infrastructure, many parents are still struggling
+ to secure school placements for their children. A recent report by the Namibian Broadcasting Corporation 
+ (NBC) sheds light on the ongoing issue and the frustrations of these parents.
+
+<h2>The Growing Demand for Education</h2>
+
+Namibia, like many countries, has witnessed a steady increase in its population, leading to a higher demand for educational facilities. Windhoek, as the nation's capital, has seen rapid urbanization and an influx of families seeking better educational opportunities for their children. As a result, the existing schools are struggling to accommodate this rising demand.
+
+<h2>Overcrowding and Limited Resources </h2>
+
+One of the significant challenges highlighted in the NBC report is the issue of overcrowded classrooms. Existing schools in Windhoek are grappling with overcrowding, making it difficult for educators to provide quality education. The strain on resources, including classrooms, teaching staff, and educational materials, has become evident.
+
+<h2> Insufficient Infrastructure Development </h2>
+
+Despite government initiatives to build new schools and improve existing ones, the pace of infrastructure development hasn't kept up with the demand. This has left many students without access to adequate educational facilities, forcing parents to explore alternative options or delay their children's education.
+
+<h2> Long Commutes and Inconvenience</h2>
+
+The shortage of school placements often leads to long commutes for students who are lucky enough to secure a spot. Parents are faced with the dilemma of either sending their children to schools far from their homes or waiting indefinitely for local placements. Long commutes can be physically and mentally taxing for young learners and add an extra burden to parents' daily routines.
+
+<h2>Frustration and Anxiety for Parents</h2>
+
+The struggle to secure school placements has taken an emotional toll on parents. The uncertainty and anxiety surrounding their children's education can be overwhelming. Parents have expressed frustration with the lack of transparency in the placement process and are calling for more clarity and communication from education authorities.
+
+<h2>The Government's Response</h2>
+
+The Namibian government has acknowledged the challenges facing parents seeking school placements in Windhoek. The Ministry of Education is working to address the issue by investing in new school infrastructure, hiring additional teachers, and streamlining the enrollment process.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eflH51FtmrQ?si=hhAl0-yqHHjSGGFS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br><br>
+
+<h1>> Article: Navigating Financial Challenges: The Reality of Student Finances in Namibia</h1>
+<p>
+<i> 15th September 2023 at 14:06 <br> By Prisca Kibwika </i> 
+</p>
+
+
+
+<p>  
+
+  Pursuing higher education in Namibia is an admirable endeavor, but for many students, the journey is fraught with financial challenges. As tuition fees, living costs, and other expenses continue to rise, students in Namibia face a persistent struggle to access and complete their studies. This article delves into the pressing financial issues confronting Namibian students, supported by references to credible sources.
+
+  <h2>Rising Tuition Fees</h2>
+  
+  One of the most significant financial barriers for students in Namibia is the increasing cost of tuition. Public universities, such as the University of Namibia (UNAM) and the Namibia University of Science and Technology (NUST), have seen tuition fees rise over the years. For instance, in 2020, UNAM announced a fee increase of 4.9%, which put added pressure on students and their families (UNAM, "UNAM Fees Increase Announcement," 2020).
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/f0jK_oVAv60?si=Ce6LBbddIB57bmh6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <br>
+  <h2>Limited Access to Financial Aid</h2>
+
+  <p>
+    <i>Updated on the 16th September 2023 at 7:59<br> By Prisca Kibwika </i> 
+    </p>
+    
+  
+  While financial aid programs exist in Namibia, their availability and reach are often limited. The Namibia Student Financial Assistance Fund (NSFAF) is the primary source of financial support for tertiary education, but it faces challenges related to funding constraints and the high demand for assistance. As a result, many eligible students do not receive the financial aid they need (Namibian Sun, "NSFAF Debt Book Drowns Beneficiaries," 2020).
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-a-qlR1z-b0?si=2ENdDHRbGfzrFznQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <br>
+
+</p>
+
+
+<h1>	Proposed solution</h1>
+   <i> 17th September 2023 at 5:45  <br> By Prisca Kibwika </i> 
+    </p>
+    
+<p>In order to overcome this Challenges in any sector mentioned above , Namibian Student needs to be exposed to divers opportunities which accommodate their needs. By Building 
+  new schools, student will have access to a proper Eduction system, and by Providing necessary financial assistance as well as materials Students will have their focused on Studies only.
+  Of course some Students regardless of the facilities they still perform bad .Those Student need counseling from the University in order to understand the way they think and give them 
+  guidance.
+</p>
+
+</div>
+ 
+
+
+
+    </section>
+    <script>
+        //this is where we apply opacity to the arrow
+$(window).scroll( function(){
+
+    //get scroll position
+    var topWindow = $(window).scrollTop();
+    //multipl by 1.5 so the arrow will become transparent half-way up the page
+    var topWindow = topWindow * 1.5;
+    
+    //get height of window
+    var windowHeight = $(window).height();
+        
+    //set position as percentage of how far the user has scrolled 
+    var position = topWindow / windowHeight;
+    //invert the percentage
+    position = 1 - position;
+  
+    //define arrow opacity as based on how far up the page the user has scrolled
+    //no scrolling = 1, half-way up the page = 0
+    $('.arrow-wrap').css('opacity', position);
+  
+  });
+  
+  
+  
+  
+  
+  
+  //Code stolen from css-tricks for smooth scrolling:
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+    </script>
+  </body>
